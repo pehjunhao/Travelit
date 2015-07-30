@@ -1,0 +1,12 @@
+<template name="itineraryList">
+	HEre lies the list of itineraries:
+	{{#each getAllItinerary}}
+		<br />
+		{{name}} |
+		{{description}}
+	{{/each}}
+<hr>
+	<div class="add-itinerary-btn">
+		Add an itinerary
+	</div>
+</template>

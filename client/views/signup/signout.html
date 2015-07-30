@@ -1,0 +1,7 @@
+<template name="signout">
+	<div class="signout" style="position: absolute; right: 0px">
+		{{#if currentUser}}
+			{{currentUser.username}}<div class="signout-btn">Sign Out</div>
+		{{/if}}
+	</div>
+</template>

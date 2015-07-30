@@ -1,0 +1,56 @@
+/* CSS declarations go here */
+
+/***********
+	RESET
+***********/
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+textarea,
+th,
+td {
+  padding: 0;
+  border: 0;
+  outline: none !important;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+
+input, textarea, select {
+  padding: 5px;
+  resize: none;
+  font-size: 15px;
+  font-weight: 300;
+  border: 1px solid #C3C3C9;
+  font-family: "Roboto", Helvetica, sans-serif;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
