@@ -2,8 +2,10 @@
 	HEre lies the list of itineraries:
 	{{#each getAllItinerary}}
 		<br />
-		{{name}} |
-		{{description}}
+		<a href="/itinerary/{{_id}}">
+			{{name}} |
+			{{description}}
+		</a>
 	{{/each}}
 <hr>
 	<div class="add-itinerary-btn">
