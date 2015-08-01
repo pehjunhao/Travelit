@@ -1,6 +1,17 @@
 <template name="itineraryItem">
+
 	{{name}} | 
 	{{description}}
 
+	<div>
+		Itinerary List
+	</div>
+	{{#each locationList}}
+		<div>
+			<a href="/itinerary/{{getItineraryId}}/{{_id}}">{{name}} | {{description}}</a>
+		</div>
+	{{/each}}
+
 	<div class="add-location-btn">Add a travel location</div>
+	<div class="delete-itinerary-btn">Delete Itinerary</div>
 </template>
